@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,yBAAyB",
+    "sources": [
+        "../acme-free/css/seq-slider/apple-style/apple-style/scss/partials/mixins.scss"
+    ],
+    "names": [],
+    "file": "mixins.css"
+}
