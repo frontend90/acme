@@ -228,4 +228,114 @@ body {
 .header .sequence-inner #sequence .info p {
   margin-top: 10px;
 }
+
+.welcome {
+  padding: 50px 0;
+}
+
+.welcome .title {
+  text-align: center;
+}
+
+.welcome .title h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: 'Lato-Light';
+}
+
+.welcome .welcome-wrap {
+  margin-top: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.welcome .welcome-wrap .block {
+  text-align: center;
+}
+
+.welcome .welcome-wrap .block img {
+  width: 100px;
+  height: 100px;
+}
+
+.welcome .welcome-wrap .block h5 {
+  margin-top: 10px;
+  font-size: 18px;
+  font-family: 'Lato-Medium';
+}
+
+.welcome .welcome-wrap .block p {
+  margin-top: 10px;
+  line-height: 22px;
+}
+
+.ready {
+  padding: 80px 0;
+  background: #f9f9f3;
+}
+
+.ready .ready-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.ready .ready-wrap .content h5 {
+  margin-top: 20px;
+  color: #475168;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.ready .ready-wrap .content .desc {
+  margin: 20px 0;
+  max-width: 555px;
+  border-top: 1px solid #dfdcdf;
+  border-bottom: 1px solid #dfdcdf;
+  padding: 20px 0;
+}
+
+.ready .ready-wrap .content .desc p {
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+
+.ready .ready-wrap .content .desc p:last-of-type {
+  margin-bottom: 0;
+}
+
+.ready .ready-wrap .content .desc p .fas {
+  font-family: 'fa-solid-900';
+  color: #48cfad;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.ready .ready-wrap .content .btn {
+  margin-top: 30px;
+}
+
+.ready .ready-wrap .content .btn button {
+  width: 140px;
+  height: 35px;
+  background: #475168;
+  border-radius: 4px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: 'Lato-Medium';
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.ready .ready-wrap .content .btn button:hover {
+  background: #48cfad;
+}
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,42 @@
+.ready 
+  padding: 80px 0 
+  background: #f9f9f3
+  & .ready-wrap
+    display: flex 
+    justify-content: space-between
+    & .content 
+      & h5 
+        margin-top: 20px 
+        color: #475168
+        text-transform: uppercase 
+        font-size: 24px 
+        font-weight: 400
+      & .desc 
+        margin: 20px 0
+        max-width: 555px
+        border-top: 1px solid #dfdcdf
+        border-bottom: 1px solid #dfdcdf
+        padding: 20px 0 
+        & p 
+          line-height: 22px 
+          margin-bottom: 10px 
+          &:last-of-type
+            margin-bottom: 0
+          & .fas 
+            +solid 
+            color: #48cfad
+            margin-right: 10px 
+            font-size: 18px 
+      & .btn 
+        margin-top: 30px 
+        & button 
+          width: 140px 
+          height: 35px 
+          background: #475168
+          border-radius: 4px 
+          color: #ffffff
+          text-transform: uppercase
+          +lat_med
+          transition: 0.3s
+          &:hover
+            background: #48cfad
