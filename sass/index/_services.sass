@@ -1,0 +1,70 @@
+.services 
+  padding-top: 50px 
+  & .title 
+    text-align: center
+    & h5 
+      text-transform: uppercase
+      font-size: 25px
+      +lat_med 
+      font-weight: 500
+  & .services-wrap 
+    margin-top: 65px 
+    display: flex
+    justify-content: space-between
+    text-align: center
+    & .card 
+      width: 360px 
+      position: relative
+      border: 1px solid #eeeeee
+      & .icon 
+        position: absolute
+        left: 50%
+        transform: translate(-50%,-50%)
+        top: 0
+        & .fas 
+          +solid 
+          font-size: 28px 
+          color: #ffffff
+          background: #48cfad
+          border-radius: 50%
+          width: 60px 
+          height: 60px 
+          display: flex
+          align-items: center
+          justify-content: center
+      & .content
+        margin-top: 50px 
+        & h3 
+          text-transform: uppercase
+          font-size: 24px 
+          +lat_med
+          font-weight: 500
+        & p 
+          margin-top: 15px 
+          padding: 0 20px 
+          line-height: 22px 
+        & a 
+          color: #e74c3c
+          display: block 
+          margin-top: 5px
+          padding-bottom: 20px 
+          transition: 0.3s
+          &:hover
+            color: #48cfad
+  & .services-line
+    width: 30%
+    height: 1px 
+    margin: 50px auto
+    background: #ececec
+    position: relative
+    &::before
+      content: ''
+      position: absolute
+      top: 0
+      left: 50%
+      transform: translate(-50%,-50%)
+      border: 1px solid #ececec
+      width: 8px 
+      height: 9px 
+      background: #ffffff
+

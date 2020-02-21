@@ -1,0 +1,57 @@
+.clients 
+  padding-top: 15px 
+  padding-bottom: 50px 
+  & .clients-wrap 
+    display: flex
+    justify-content: space-between
+    & .left-block 
+      width: 260px 
+      & h5 
+        font-size: 30px 
+        +lat_med
+        font-weight: 500
+      & p 
+        margin-top: 10px 
+        line-height: 22px 
+    & .clients-slider-wrap
+      position: relative
+      width: 850px 
+      & .clients-slider 
+        margin-top: 30px 
+        & .slick-list 
+          overflow: hidden
+          & .slick-track 
+            display: flex
+            justify-content: space-between
+            & .clients-block 
+              text-align: center
+              & .img 
+                width: 168px 
+                &:hover img
+                  filter: none 
+                & a 
+                  & img 
+                    width: 100%
+                    height: auto
+                    background: rgba(#eeeeee,0.5)
+                    filter: grayscale(100%)
+                    transition: 0.3s linear 
+      & .btn
+        position: absolute
+        top: 0
+        left: 0 
+        & button 
+          display: inline-flex
+          align-items: center
+          color: #444e67
+          transition: 0.3s
+          &:hover
+            color: #48cfad
+          & .fas 
+            +solid 
+        & .clients-slider-left 
+          & .fas 
+            margin-right: 5px 
+        & .clients-slider-right 
+          & p 
+            margin-right: 5px 

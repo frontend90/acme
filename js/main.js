@@ -43,3 +43,12 @@
     slidesToShow: 4,
     slidesToScroll: 2
   });
+
+  /************    clients slick    **************/
+  $('.clients-slider').slick({
+    prevArrow: $('.clients-slider-left'),
+    nextArrow: $('.clients-slider-right'),
+    dots: false,
+    slidesToShow: 5,
+    slidesToScroll: 1
+  });
