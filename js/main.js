@@ -34,3 +34,12 @@
       this.className += " blog-active";
     });
   }
+
+
+  /************    work slick    **************/
+  $('.work-slider').slick({
+    arrows: false,
+    dots: true,
+    slidesToShow: 4,
+    slidesToScroll: 2
+  });

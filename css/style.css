@@ -578,4 +578,184 @@ body {
   -webkit-transform: translateX(100%);
           transform: translateX(100%);
 }
+
+.work {
+  padding: 50px 0;
+  background: #f9f9f3;
+}
+
+.work .title {
+  text-align: center;
+}
+
+.work .title h5 {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.work .title p {
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.work .work-slider {
+  margin-top: 35px;
+}
+
+.work .work-slider .slick-list {
+  overflow: hidden;
+}
+
+.work .work-slider .slick-list .slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.work .work-slider .slick-list .slick-track .work-block {
+  margin-left: 5px;
+}
+
+.work .work-slider .slick-list .slick-track .work-block:first-of-type {
+  margin-left: 0;
+}
+
+.work .work-slider .slick-list .slick-track .work-block .img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.work .work-slider .slick-list .slick-track .work-block .img:hover img {
+  -webkit-transform: scale(5);
+          transform: scale(5);
+  opacity: 0.5;
+}
+
+.work .work-slider .slick-list .slick-track .work-block .img:hover .overlay {
+  opacity: 1;
+}
+
+.work .work-slider .slick-list .slick-track .work-block .img img {
+  width: 100%;
+  height: auto;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.work .work-slider .slick-list .slick-track .work-block .img .overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  opacity: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.work .work-slider .slick-list .slick-track .work-block .img .overlay a {
+  display: block;
+  position: relative;
+}
+
+.work .work-slider .slick-list .slick-track .work-block .img .overlay a:hover .target {
+  opacity: 1;
+}
+
+.work .work-slider .slick-list .slick-track .work-block .img .overlay a .target {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: -60%;
+  opacity: 0;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.work .work-slider .slick-list .slick-track .work-block .img .overlay a .target p {
+  background: #000000;
+  padding: 2px 5px;
+  color: #ffffff;
+  font-size: 12px;
+  border-radius: 3px;
+  position: relative;
+}
+
+.work .work-slider .slick-list .slick-track .work-block .img .overlay a .target p::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: -10px;
+  border: 5px solid transparent;
+  border-top: 5px solid #000000;
+}
+
+.work .work-slider .slick-list .slick-track .work-block .img .overlay a .fas {
+  font-family: 'fa-solid-900';
+  font-size: 16px;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.work .work-slider .slick-list .slick-track .work-block .img .overlay a .fas:hover {
+  background: #48cfad;
+}
+
+.work .work-slider .slick-dots {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.work .work-slider .slick-dots li {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-left: 7px;
+}
+
+.work .work-slider .slick-dots li:first-of-type {
+  margin-left: 0;
+}
+
+.work .work-slider .slick-dots li button {
+  font-size: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #869791;
+  opacity: 0.5;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.work .work-slider .slick-dots li button:hover {
+  opacity: 1;
+}
+
+.work .work-slider .slick-dots .slick-active button {
+  opacity: 1;
+}
 /*# sourceMappingURL=style.css.map */
