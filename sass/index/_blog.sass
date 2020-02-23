@@ -5,6 +5,7 @@
     justify-content: space-between
     & .panel 
       width: 50%
+      position: relative
       & .btn 
         display: inline-flex
         & button 
@@ -26,8 +27,12 @@
         border: 1px solid #eeeeee
         border-radius: 1px 
         padding: 15px 
+        position: absolute
+        top: calc(0 - 55px)
+        left: 0
+        width: 100%
         display: none 
-        &.blog-open 
+        &.blog-active
           display: block 
         & .block-item 
           display: flex
