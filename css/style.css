@@ -1208,4 +1208,392 @@ body {
 .footer .footer-wrap .social a .fab:hover {
   background: #48cfad;
 }
+
+.top-typography {
+  padding: 30px 0;
+  background: #34495e;
+}
+
+.top-typography .top-typography-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top-typography .top-typography-wrap .logo h3 {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: 'Lato-Semibold';
+}
+
+.top-typography .top-typography-wrap .typography-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.top-typography .top-typography-wrap .typography-nav a {
+  color: #48cfad;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.top-typography .top-typography-wrap .typography-nav a:first-of-type {
+  margin-left: 0;
+}
+
+.top-typography .top-typography-wrap .typography-nav p {
+  color: #ffffff;
+  margin-left: 5px;
+}
+
+.typography-content {
+  padding: 40px 0;
+}
+
+.typography-content .row .title .title-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.typography-content .row .title .title-wrap .block {
+  margin-left: 30px;
+}
+
+.typography-content .row .title .title-wrap .block:first-of-type {
+  min-width: 25%;
+  margin-left: 0;
+}
+
+.typography-content .row .title .title-wrap .block:last-of-type {
+  min-width: 34%;
+}
+
+.typography-content .row .title .title-wrap .block h1 {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.typography-content .row .title .title-wrap .block h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.typography-content .row .title .title-wrap .block h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.typography-content .row .title .title-wrap .block h4 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.typography-content .row .title .title-wrap .block h5 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.typography-content .row .title .title-wrap .block h6 {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.typography-content .row .title .title-wrap .block p {
+  margin-top: 10px;
+  line-height: 22px;
+}
+
+.typography-content .row .title .title-wrap .block .text-muted {
+  color: #a1a1a1;
+}
+
+.typography-content .row .title .title-wrap .block .text-info {
+  color: #8175c7;
+}
+
+.typography-content .row .title .title-wrap .block .text-primary {
+  color: #59ace2;
+}
+
+.typography-content .row .title .title-wrap .block .text-warning {
+  color: #FCB322;
+}
+
+.typography-content .row .title .title-wrap .block .text-danger {
+  color: #FF6C60;
+}
+
+.typography-content .row .title .title-wrap .block .text-success {
+  color: #A9D86E;
+}
+
+.typography-content .row .highlights {
+  margin-top: 30px;
+}
+
+.typography-content .row .highlights h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.typography-content .row .highlights p {
+  margin-top: 10px;
+  line-height: 22px;
+}
+
+.typography-content .row .highlights p .highlights1 {
+  color: #ffffff;
+  background: #a0d468;
+}
+
+.typography-content .row .highlights p .highlights2 {
+  color: #ffffff;
+  background: #656d78;
+}
+
+.typography-content .row .highlights p .highlights3 {
+  color: #242424;
+  background: #Ffce54;
+}
+
+.typography-content .row .styles {
+  margin-top: 30px;
+}
+
+.typography-content .row .styles h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.typography-content .row .styles p {
+  line-height: 22px;
+}
+
+.typography-content .row .styles p a {
+  color: #444e67;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.typography-content .row .styles p a:hover {
+  color: #48cfad;
+}
+
+.typography-content .row .styles p .styles1 {
+  text-decoration: underline;
+}
+
+.typography-content .row .styles p .styles2 {
+  color: #242424;
+  font-weight: bold;
+}
+
+.typography-content .row .styles p .styles3 {
+  color: #9cce44;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.typography-content .row .dropcap {
+  margin-top: 30px;
+}
+
+.typography-content .row .dropcap .dropcap-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.typography-content .row .dropcap .dropcap-wrap .block {
+  width: 50%;
+  margin-left: 30px;
+}
+
+.typography-content .row .dropcap .dropcap-wrap .block:first-of-type {
+  margin-left: 0;
+}
+
+.typography-content .row .dropcap .dropcap-wrap .block h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.typography-content .row .dropcap .dropcap-wrap .block p {
+  margin-top: 10px;
+  line-height: 22px;
+}
+
+.typography-content .row .dropcap .dropcap-wrap .block p span {
+  background: #666666;
+  padding: 5px 10px;
+  color: #ffffff;
+  font-size: 30px;
+  line-height: 30px;
+  float: left;
+  margin-top: 4px;
+  margin-right: 10px;
+}
+
+.typography-content .row .dropcap .dropcap-wrap .block p .dropcap2 {
+  border-radius: 50%;
+  font-size: 35px;
+}
+
+.typography-content .row .blockquote {
+  margin-top: 30px;
+}
+
+.typography-content .row .blockquote h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.typography-content .row .blockquote p {
+  margin-top: 10px;
+  line-height: 22px;
+}
+
+.typography-content .row .blockquote blockquote {
+  padding: 10px 20px;
+  border-left: 5px solid #eeeeee;
+  margin-top: 10px;
+}
+
+.typography-content .row .blockquote blockquote p {
+  font-size: 18px;
+}
+
+.typography-content .row .lists {
+  margin-top: 30px;
+}
+
+.typography-content .row .lists h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.typography-content .row .lists .lists-wrap {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.typography-content .row .lists .lists-wrap .block {
+  padding: 0 55px;
+}
+
+.typography-content .row .grid {
+  margin-top: 30px;
+}
+
+.typography-content .row .grid .grid-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.typography-content .row .grid .grid-wrap .block {
+  width: 50%;
+  margin-left: 30px;
+}
+
+.typography-content .row .grid .grid-wrap .block:first-of-type {
+  margin-left: 0;
+}
+
+.typography-content .row .grid .grid-wrap .block h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.typography-content .row .grid .grid-wrap .block p {
+  margin-top: 10px;
+  line-height: 22px;
+}
+
+.typography-content .row .third-grid {
+  margin-top: 30px;
+}
+
+.typography-content .row .third-grid .third-grid-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.typography-content .row .third-grid .third-grid-wrap .block {
+  width: 33.3%;
+  margin-left: 30px;
+}
+
+.typography-content .row .third-grid .third-grid-wrap .block:first-of-type {
+  margin-left: 0;
+}
+
+.typography-content .row .third-grid .third-grid-wrap .block h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.typography-content .row .third-grid .third-grid-wrap .block p {
+  margin-top: 10px;
+  line-height: 22px;
+}
+
+.typography-content .row .fourth-grid {
+  margin-top: 30px;
+}
+
+.typography-content .row .fourth-grid .fourth-grid-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.typography-content .row .fourth-grid .fourth-grid-wrap .block {
+  width: 25%;
+  margin-left: 30px;
+}
+
+.typography-content .row .fourth-grid .fourth-grid-wrap .block:first-of-type {
+  margin-left: 0;
+}
+
+.typography-content .row .fourth-grid .fourth-grid-wrap .block h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.typography-content .row .fourth-grid .fourth-grid-wrap .block p {
+  margin-top: 10px;
+  line-height: 22px;
+}
 /*# sourceMappingURL=style.css.map */
