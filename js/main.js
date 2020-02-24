@@ -32,3 +32,6 @@
     slidesToShow: 5,
     slidesToScroll: 1
   });
+
+  /**************      WOW       ***********/
+  new WOW().init();
