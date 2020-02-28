@@ -2440,4 +2440,224 @@ body {
   width: 50%;
   margin-left: 30px;
 }
+
+.button-content .row2 .right .box .application-buttons .title h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.button-content .row2 .right .box .application-buttons .title p {
+  margin-top: 10px;
+}
+
+.button-content .row2 .right .box .application-buttons .title p code {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #c7254e;
+  background: #f9f2f4;
+  border-radius: 4px;
+}
+
+.button-content .row2 .right .box .application-buttons .content {
+  margin-top: 10px;
+}
+
+.button-content .row2 .right .box .application-buttons .content button {
+  position: relative;
+  padding: 15px 5px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 80px;
+  height: 60px;
+  color: #666666;
+  border: 1px solid #dddddd;
+  background: #fafafa;
+  font-size: 12px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.button-content .row2 .right .box .application-buttons .content button:hover {
+  background: #eeeeee;
+}
+
+.button-content .row2 .right .box .application-buttons .content button .fas {
+  font-family: 'fa-solid-900';
+  font-size: 20px;
+}
+
+.button-content .row2 .right .box .application-buttons .content button span {
+  position: absolute;
+  top: -3px;
+  right: -10px;
+  font-size: 10px;
+  padding: 3px 7px;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.button-content .row2 .right .box .application-buttons .content button .yellow {
+  background: #f39c12;
+}
+
+.button-content .row2 .right .box .application-buttons .content button .green {
+  background: #00a65a;
+}
+
+.button-content .row2 .right .box .application-buttons .content button .purple {
+  background: #932ab6;
+}
+
+.button-content .row2 .right .box .application-buttons .content button .teal {
+  background: #39cccc;
+}
+
+.button-content .row2 .right .box .application-buttons .content button .aqua {
+  background: #00c0ef;
+}
+
+.button-content .row2 .right .box .application-buttons .content button .red {
+  background: #f56954;
+}
+
+.button-content .row2 .right .box .different-colors .title h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.button-content .row2 .right .box .different-colors .title p {
+  margin-top: 10px;
+  line-height: 22px;
+}
+
+.button-content .row2 .right .box .different-colors .title p code {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #c7254e;
+  background: #f9f2f4;
+  border-radius: 4px;
+}
+
+.button-content .row2 .right .box .different-colors .content {
+  margin-top: 10px;
+}
+
+.button-content .row2 .right .box .different-colors .content p {
+  margin-bottom: 10px;
+}
+
+.button-content .row2 .right .box .different-colors .content p button {
+  color: #f9f9f9;
+  margin-bottom: 20px;
+  padding: 6px 12px;
+  display: inline-block;
+  white-space: nowrap;
+  border-radius: 3px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.button-content .row2 .right .box .different-colors .content p button:hover {
+  opacity: .8;
+}
+
+.button-content .row2 .right .box .different-colors .content p .btn-flat {
+  border-radius: 0;
+}
+
+.button-content .row2 .right .box .different-colors .content p .maroon {
+  background: #85144b;
+}
+
+.button-content .row2 .right .box .different-colors .content p .purple {
+  background: #932ab6;
+}
+
+.button-content .row2 .right .box .different-colors .content p .navy {
+  background: #001f3f;
+}
+
+.button-content .row2 .right .box .different-colors .content p .orange {
+  background: #ff851b;
+}
+
+.button-content .row2 .right .box .different-colors .content p .olive {
+  background: #3d9970;
+}
+
+.button-content .row2 .right .box .vertical-button .title h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.button-content .row2 .right .box .vertical-button .title p {
+  margin-top: 10px;
+}
+
+.button-content .row2 .right .box .vertical-button .title p code {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #c7254e;
+  background: #f9f2f4;
+  border-radius: 4px;
+}
+
+.button-content .row2 .right .box .vertical-button .content {
+  margin-top: 10px;
+}
+
+.button-content .row2 .right .box .vertical-button .content .table {
+  border: 1px solid #dddddd;
+  text-align: center;
+  width: 100%;
+}
+
+.button-content .row2 .right .box .vertical-button .content .table tr th {
+  border: 1px solid #dddddd;
+  padding: 8px;
+}
+
+.button-content .row2 .right .box .vertical-button .content .table tr td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+}
+
+.button-content .row2 .right .box .vertical-button .content .table tr td .vertical-group {
+  display: inline-block;
+}
+
+.button-content .row2 .right .box .vertical-button .content .table tr td .vertical-group button {
+  display: block;
+  width: 100%;
+  border-radius: 0;
+}
+
+.button-content .row2 .right .box .vertical-button .content .table tr td .vertical-group .btn-group {
+  position: relative;
+}
+
+.button-content .row2 .right .box .vertical-button .content .table tr td .vertical-group .btn-group ul {
+  list-style: none;
+  position: absolute;
+  background: #ffffff;
+  z-index: 1000;
+  top: 100%;
+  left: 0;
+  min-width: 160px;
+  padding: 5px 0;
+  border-radius: 4px;
+  display: none;
+}
+
+.button-content .row2 .right .box .vertical-button .content .table tr td .vertical-group .btn-group ul li a {
+  display: block;
+  padding: 3px 10px;
+  color: #333333;
+  white-space: nowrap;
+}
+
+.button-content .row2 .right .box .vertical-button .content .table tr td .vertical-group .btn-group ul li a:hover {
+  color: #ffffff;
+  background: rgba(0, 31, 63, 0.8);
+}
 /*# sourceMappingURL=style.css.map */
