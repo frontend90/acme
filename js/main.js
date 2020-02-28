@@ -53,3 +53,17 @@
       return false;
     });
   });
+
+
+
+
+  $('.dropdown-trigger').dropdown ({
+inDuration: 300,
+outDuration: 125,
+constrainWidth: false,
+hover: true,
+gutter: 0,
+belowOrigin: false,
+alignment: 'left',
+stopPropagation: false
+  });
