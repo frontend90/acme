@@ -159,6 +159,14 @@ body {
   font-family: 'fa-solid-900';
 }
 
+code {
+  font-size: 90%;
+  padding: 2px 4px;
+  color: #c7254e;
+  border-radius: 4px;
+  background: #f9f2f4;
+}
+
 .header .header-top {
   background: #ffffff;
   z-index: 100;
@@ -1802,14 +1810,6 @@ body {
   margin-top: 10px;
 }
 
-.button-content .row .buttons .title p code {
-  padding: 2px 4px;
-  font-size: 90%;
-  color: #c7254e;
-  background: #f9f2f4;
-  border-radius: 4px;
-}
-
 .button-content .row .buttons .table {
   margin-top: 10px;
   border: 1px solid #dddddd;
@@ -2100,14 +2100,6 @@ body {
 
 .button-content .row2 .left .box .horizontal-button .title p {
   margin-top: 10px;
-}
-
-.button-content .row2 .left .box .horizontal-button .title p code {
-  padding: 2px 4px;
-  font-size: 90%;
-  color: #c7254e;
-  background: #f9f2f4;
-  border-radius: 4px;
 }
 
 .button-content .row2 .left .box .horizontal-button .content {
@@ -2498,14 +2490,6 @@ body {
   margin-top: 10px;
 }
 
-.button-content .row2 .right .box .application-buttons .title p code {
-  padding: 2px 4px;
-  font-size: 90%;
-  color: #c7254e;
-  background: #f9f2f4;
-  border-radius: 4px;
-}
-
 .button-content .row2 .right .box .application-buttons .content {
   margin-top: 10px;
 }
@@ -2579,14 +2563,6 @@ body {
   line-height: 22px;
 }
 
-.button-content .row2 .right .box .different-colors .title p code {
-  padding: 2px 4px;
-  font-size: 90%;
-  color: #c7254e;
-  background: #f9f2f4;
-  border-radius: 4px;
-}
-
 .button-content .row2 .right .box .different-colors .content {
   margin-top: 10px;
 }
@@ -2642,14 +2618,6 @@ body {
 
 .button-content .row2 .right .box .vertical-button .title p {
   margin-top: 10px;
-}
-
-.button-content .row2 .right .box .vertical-button .title p code {
-  padding: 2px 4px;
-  font-size: 90%;
-  color: #c7254e;
-  background: #f9f2f4;
-  border-radius: 4px;
 }
 
 .button-content .row2 .right .box .vertical-button .content {
@@ -2754,5 +2722,435 @@ body {
 .top-form .top-form-wrap .form-nav p {
   color: #ffffff;
   margin-left: 5px;
+}
+
+.form-content {
+  padding: 60px 0;
+}
+
+.form-content h1 {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.form-content .forms-line {
+  width: 100%;
+  height: 1px;
+  background: #eeeeee;
+  margin: 10px 0 20px;
+}
+
+.form-content .row {
+  margin-bottom: 20px;
+}
+
+.form-content .row .basic-example .title h3 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.form-content .row .basic-example .title p {
+  line-height: 22px;
+}
+
+.form-content .row .basic-example .content {
+  margin-top: 10px;
+}
+
+.form-content .row .basic-example .content .form {
+  border: 1px solid #e5e5e5;
+  padding: 15px;
+  background: #f8f8f8;
+}
+
+.form-content .row .basic-example .content .form .title h4 {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.form-content .row .basic-example .content .form form {
+  margin-top: 20px;
+}
+
+.form-content .row .basic-example .content .form form .form-group {
+  margin-bottom: 15px;
+}
+
+.form-content .row .basic-example .content .form form .form-group p {
+  font-weight: bold;
+}
+
+.form-content .row .basic-example .content .form form .form-group input[type="email"], .form-content .row .basic-example .content .form form .form-group input[type="password"] {
+  margin-top: 5px;
+  border: 1px solid #d9d9d9;
+  width: 100%;
+  color: #c2c2c2;
+  border-radius: 2px;
+  height: 34px;
+  padding: 6px 12px;
+  background: #ffffff;
+}
+
+.form-content .row .basic-example .content .form form .form-group input[type="file"] {
+  margin-top: 5px;
+}
+
+.form-content .row .basic-example .content .form form .form-group .input-help {
+  color: #737373;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+.form-content .row .inline-form .title h4 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.form-content .row .inline-form .title p {
+  line-height: 22px;
+}
+
+.form-content .row .inline-form .title p span {
+  font-weight: bold;
+}
+
+.form-content .row .inline-form .content {
+  margin-top: 10px;
+}
+
+.form-content .row .inline-form .content .form {
+  border: 1px solid #e5e5e5;
+  background: #f8f8f8;
+  padding: 15px;
+}
+
+.form-content .row .inline-form .content .form .title h4 {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.form-content .row .inline-form .content .form form {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form-content .row .inline-form .content .form form .form-group {
+  margin-left: 5px;
+}
+
+.form-content .row .inline-form .content .form form .form-group:first-of-type {
+  margin-left: 0;
+}
+
+.form-content .row .inline-form .content .form form .form-group input[type="email"], .form-content .row .inline-form .content .form form .form-group input[type="password"] {
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  color: #c2c2c2;
+  height: 34px;
+  width: 100%;
+  padding: 6px 12px;
+  background: #ffffff;
+}
+
+.form-content .row .inline-form .content .form form .btn {
+  margin-left: 5px;
+}
+
+.form-content .row .horizontal-form .title h3 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.form-content .row .horizontal-form .title p {
+  line-height: 22px;
+}
+
+.form-content .row .horizontal-form .content {
+  margin-top: 10px;
+}
+
+.form-content .row .horizontal-form .content .form {
+  border: 1px solid #e5e5e5;
+  background: #f8f8f8;
+  padding: 15px;
+}
+
+.form-content .row .horizontal-form .content .form .title h4 {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.form-content .row .horizontal-form .content .form form {
+  margin-top: 20px;
+}
+
+.form-content .row .horizontal-form .content .form form .form-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.form-content .row .horizontal-form .content .form form .form-group input[type="email"], .form-content .row .horizontal-form .content .form form .form-group input[type="password"] {
+  border: 1px solid #d9d9d9;
+  width: 83%;
+  height: 34px;
+  background: #ffffff;
+  color: #c2c2c2;
+  padding: 6px 12px;
+}
+
+.form-content .row .horizontal-form .content .form form .form-groups {
+  margin-left: 17%;
+}
+
+.form-content .row .horizontal-form .content .form form .form-groups .form-group {
+  display: block;
+}
+
+.form-content .row .supported-controls .title h3 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.form-content .row .supported-controls .title p {
+  line-height: 22px;
+}
+
+.form-content .row .supported-controls .inputs {
+  margin-top: 30px;
+}
+
+.form-content .row .supported-controls .inputs .title h4 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.form-content .row .supported-controls .inputs .title p {
+  line-height: 22px;
+}
+
+.form-content .row .supported-controls .inputs .content {
+  margin-top: 10px;
+}
+
+.form-content .row .supported-controls .inputs .content .form {
+  border: 1px solid #e5e5e5;
+  background: #f8f8f8;
+  padding: 15px;
+}
+
+.form-content .row .supported-controls .inputs .content .form .title h3 {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.form-content .row .supported-controls .inputs .content .form form {
+  margin-top: 20px;
+}
+
+.form-content .row .supported-controls .inputs .content .form form input {
+  border: 1px solid #d9d9d9;
+  width: 100%;
+  border-radius: 2px;
+  background: #ffffff;
+  height: 34px;
+  padding: 6px 12px;
+  color: #c2c2c2;
+}
+
+.form-content .row .supported-controls .textarea {
+  margin-top: 20px;
+}
+
+.form-content .row .supported-controls .textarea .title h4 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.form-content .row .supported-controls .textarea .content {
+  margin-top: 10px;
+}
+
+.form-content .row .supported-controls .textarea .content .form {
+  border: 1px solid #e5e5e5;
+  background: #f8f8f8;
+  padding: 15px;
+}
+
+.form-content .row .supported-controls .textarea .content .form .title h3 {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.form-content .row .supported-controls .textarea .content .form form {
+  margin-top: 20px;
+}
+
+.form-content .row .supported-controls .textarea .content .form form textarea {
+  width: 100%;
+  border: 1px solid #d9d9d9;
+  width: 100%;
+  border-radius: 2px;
+  background: #ffffff;
+  height: auto;
+  padding: 6px 12px;
+  color: #c2c2c2;
+}
+
+.form-content .row .supported-controls .checkboxes {
+  margin-top: 20px;
+}
+
+.form-content .row .supported-controls .checkboxes .title h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.form-content .row .supported-controls .checkboxes .checkboxes-default {
+  margin-top: 10px;
+}
+
+.form-content .row .supported-controls .checkboxes .checkboxes-default .title h4 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.form-content .row .supported-controls .checkboxes .checkboxes-default .content {
+  margin-top: 10px;
+}
+
+.form-content .row .supported-controls .checkboxes .checkboxes-default .content .form {
+  border: 1px solid #e5e5e5;
+  background: #f8f8f8;
+  padding: 15px;
+}
+
+.form-content .row .supported-controls .checkboxes .checkboxes-default .content .form .title h3 {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.form-content .row .supported-controls .checkboxes .checkboxes-default .content .form form {
+  margin-top: 20px;
+}
+
+.form-content .row .supported-controls .checkboxes .checkboxes-default .content .form form .checkbox {
+  margin-bottom: 35px;
+}
+
+.form-content .row .supported-controls .checkboxes .checkboxes-default .content .form form .radio {
+  margin-bottom: 10px;
+}
+
+.form-content .row .supported-controls .checkboxes .checkboxes-default .content .form form .radio:last-of-type {
+  margin-bottom: 0;
+}
+
+.form-content .row .supported-controls .checkboxes .inline-checkboxes {
+  margin-top: 10px;
+}
+
+.form-content .row .supported-controls .checkboxes .inline-checkboxes .title h4 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.form-content .row .supported-controls .checkboxes .inline-checkboxes .content {
+  margin-top: 10px;
+}
+
+.form-content .row .supported-controls .checkboxes .inline-checkboxes .content .form {
+  border: 1px solid #e5e5e5;
+  background: #f8f8f8;
+  padding: 15px;
+}
+
+.form-content .row .supported-controls .checkboxes .inline-checkboxes .content .form .title h4 {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.form-content .row .supported-controls .checkboxes .inline-checkboxes .content .form form {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form-content .row .supported-controls .checkboxes .inline-checkboxes .content .form form .checkbox-inline {
+  margin-left: 10px;
+}
+
+.form-content .row .supported-controls .checkboxes .inline-checkboxes .content .form form .checkbox-inline:first-of-type {
+  margin-left: 0;
+}
+
+.form-content .row .supported-controls .selects {
+  margin-top: 10px;
+}
+
+.form-content .row .supported-controls .selects .title h4 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.form-content .row .supported-controls .selects .content {
+  margin-top: 10px;
+}
+
+.form-content .row .supported-controls .selects .content .form {
+  border: 1px solid #e5e5e5;
+  background: #f8f8f8;
+  padding: 15px;
+}
+
+.form-content .row .supported-controls .selects .content .form .title h4 {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.form-content .row .supported-controls .selects .content .form form {
+  margin-top: 20px;
+}
+
+.form-content .row .supported-controls .selects .content .form form select {
+  width: 100%;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  color: #c2c2c2;
+  padding: 6px 12px;
+  height: 34px;
+  background: #ffffff;
+  outline: 0;
+  margin-bottom: 20px;
+}
+
+.form-content .row .supported-controls .selects .content .form form select:last-of-type {
+  margin-bottom: 0;
+}
+
+.form-content .row .supported-controls .selects .content .form form select[multiple] {
+  height: auto;
 }
 /*# sourceMappingURL=style.css.map */
