@@ -558,15 +558,204 @@
           <!-- /.supported-controls -->
         </div>
         <!-- /.row -->
-        <div class="row"></div>
+        <div class="row">
+          <div class="static-control">
+            <div class="title">
+              <h3>Static control</h3>
+              <p>When you need to place plain text next to a form label within a horizontal form, use the
+                <code>.form-control-static</code> class on a <code>&lt;p&gt;</code></p>
+            </div>
+            <!-- /.title -->
+            <div class="content">
+              <div class="form">
+                <div class="title">
+                  <h4>example</h4>
+                </div>
+                <!-- /.title -->
+                <form action="#" method="POST">
+                  <div class="form-group">
+                    <p>Email</p>
+                    <p class="desc">email@example.com</p>
+                  </div>
+                  <!-- /.form-group -->
+                  <div class="form-group">
+                    <p>Password</p>
+                    <input type="password" placeholder="Password">
+                  </div>
+                  <!-- /.form-group -->
+                </form>
+              </div>
+              <!-- /.form -->
+            </div>
+            <!-- /.content -->
+          </div>
+          <!-- /.static-control -->
+        </div>
         <!-- /.row -->
-        <div class="row"></div>
+        <div class="row">
+          <div class="input-focus">
+            <div class="title">
+              <h3>Input focus</h3>
+              <p>We remove the default <code>outline</code> styles on some form controls and apply a
+                <code>box-shadow</code> in its place for <code>:focus</code></p>
+            </div>
+            <!-- /.title -->
+            <div class="content">
+              <div class="form">
+                <div class="title">
+                  <h4>example</h4>
+                </div>
+                <!-- /.title -->
+                <form action="#" method="POST">
+                  <input type="text" placeholder="Demonstrative focus state">
+                </form>
+              </div>
+              <!-- /.form -->
+              <div class="demo-focus">
+                <h5>Demo <span>:focus</span> state</h5>
+                <p>The above example input uses custom styles in our documentation to demonstrate the
+                  <span>:focus</span> state on a <span>.form-control</span></p>
+              </div>
+              <!-- /.demo-focus -->
+            </div>
+            <!-- /.content -->
+          </div>
+          <!-- /.input-focus -->
+        </div>
         <!-- /.row -->
-        <div class="row"></div>
+        <div class="row">
+          <div class="validation-states">
+            <div class="title">
+              <h3>Validation states</h3>
+              <p>Bootstrap includes validation styles for error, warning, and success states on form controls. To use,
+                add <code>.has-warning</code>, <code>.has-error</code>, or <code>.has-success</code> to the parent
+                element. Any <code>.control-label</code>, <code>.form-control</code>, and <code>.help-block</code>
+                within that element will receive the validation styles</p>
+            </div>
+            <!-- /.title -->
+            <div class="content">
+              <div class="form">
+                <div class="title">
+                  <h4>example</h4>
+                </div>
+                <!-- /.title -->
+                <form action="#" method="POST">
+                  <div class="form-group has-success">
+                    <p>Input with success</p>
+                    <input type="text">
+                  </div>
+                  <!-- /.form-group -->
+                  <div class="form-group has-warning">
+                    <p>Input with warning</p>
+                    <input type="text">
+                  </div>
+                  <!-- /.form-group -->
+                  <div class="form-group has-error">
+                    <p>Input with error</p>
+                    <input type="text">
+                  </div>
+                  <!-- /.form-group -->
+                </form>
+              </div>
+              <!-- /.form -->
+            </div>
+            <!-- /.content -->
+          </div>
+          <!-- /.validation-states -->
+        </div>
         <!-- /.row -->
-        <div class="row"></div>
+        <div class="row">
+          <div class="control-sizing">
+            <div class="title">
+              <h3>Control sizing</h3>
+              <p>Set heights using classes like <code>.input-lg</code>, and set widths using grid column classes like
+                <code>.col-lg-*</code></p>
+            </div>
+            <!-- /.title -->
+            <div class="height-sizing">
+              <div class="title">
+                <h4>Height sizing</h4>
+                <p>Create taller or shorter form controls that match button sizes.Border radius can be changed using
+                  <code>.border-radius</code> class</p>
+              </div>
+              <!-- /.title -->
+              <div class="content">
+                <div class="form">
+                  <div class="title">
+                    <h3>example</h3>
+                  </div>
+                  <!-- /.title -->
+                  <form action="#" method="POST">
+                    <input type="text" placeholder=".input-lg" class="input-lg"><br>
+                    <input type="text" placeholder="Default input" class="default-input"><br>
+                    <input type="text" placeholder=".input-sm" class="input-sm"><br>
+                    <select class="input-lg">
+                      <option>.input-lg</option>
+                    </select>
+                    <select class="default-input">
+                      <option>Default select</option>
+                    </select>
+                    <select class="input-sm">
+                      <option>.input-sm</option>
+                    </select>
+                  </form>
+                </div>
+                <!-- /.form -->
+              </div>
+              <!-- /.content -->
+            </div>
+            <!-- /.height-sizing -->
+            <div class="column-sizing">
+              <div class="title">
+                <h4>Column sizing</h4>
+                <p>Wrap inputs in grid columns, or any custom parent element, to easily enforce desired widths</p>
+              </div>
+              <!-- /.title -->
+              <div class="content">
+                <div class="form">
+                  <div class="title">
+                    <h4>example</h4>
+                  </div>
+                  <!-- /.title -->
+                  <form action="#" method="POST">
+                    <input type="text" placeholder=".col-xs-2" class="col-xs-2">
+                    <input type="text" placeholder=".col-xs-3" class="col-xs-3">
+                    <input type="text" placeholder=".col-xs-4" class="col-xs-4">
+                  </form>
+                </div>
+                <!-- /.form -->
+              </div>
+              <!-- /.content -->
+            </div>
+            <!-- /.column-sizing -->
+          </div>
+          <!-- /.control-sizing -->
+        </div>
         <!-- /.row -->
-        <div class="row"></div>
+        <div class="row">
+          <div class="help-text">
+            <div class="title">
+              <h3>Help text</h3>
+              <p>Block level help text for form controls</p>
+            </div>
+            <!-- /.title -->
+            <div class="content">
+              <div class="form">
+                <div class="title">
+                  <h4>example</h4>
+                </div>
+                <!-- /.title -->
+                <form action="#" method="POST">
+                  <input type="text">
+                  <p>A block of help text that breaks onto a new line and may extend beyond one line</p>
+                </form>
+              </div>
+              <!-- /.form -->
+            </div>
+            <!-- /.content -->
+          </div>
+          <!-- /.help-text -->
+        </div>
         <!-- /.row -->
         <div class="row"></div>
         <!-- /.row -->

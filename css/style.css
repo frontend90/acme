@@ -165,6 +165,7 @@ code {
   color: #c7254e;
   border-radius: 4px;
   background: #f9f2f4;
+  white-space: nowrap;
 }
 
 .header .header-top {
@@ -2766,6 +2767,7 @@ code {
 .form-content .row .basic-example .content .form .title h4 {
   text-transform: uppercase;
   font-size: 12px;
+  opacity: 0.6;
 }
 
 .form-content .row .basic-example .content .form form {
@@ -2828,6 +2830,7 @@ code {
   text-transform: uppercase;
   font-size: 12px;
   font-weight: bold;
+  opacity: 0.6;
 }
 
 .form-content .row .inline-form .content .form form {
@@ -2884,6 +2887,7 @@ code {
 .form-content .row .horizontal-form .content .form .title h4 {
   text-transform: uppercase;
   font-size: 12px;
+  opacity: 0.6;
 }
 
 .form-content .row .horizontal-form .content .form form {
@@ -2956,6 +2960,7 @@ code {
   text-transform: uppercase;
   font-size: 12px;
   font-weight: bold;
+  opacity: 0.6;
 }
 
 .form-content .row .supported-controls .inputs .content .form form {
@@ -2995,6 +3000,7 @@ code {
   text-transform: uppercase;
   font-size: 12px;
   font-weight: bold;
+  opacity: 0.6;
 }
 
 .form-content .row .supported-controls .textarea .content .form form {
@@ -3044,6 +3050,7 @@ code {
   text-transform: uppercase;
   font-size: 12px;
   font-weight: bold;
+  opacity: 0.6;
 }
 
 .form-content .row .supported-controls .checkboxes .checkboxes-default .content .form form {
@@ -3085,6 +3092,7 @@ code {
   font-size: 12px;
   text-transform: uppercase;
   font-weight: bold;
+  opacity: 0.6;
 }
 
 .form-content .row .supported-controls .checkboxes .inline-checkboxes .content .form form {
@@ -3128,6 +3136,7 @@ code {
   font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
+  opacity: 0.6;
 }
 
 .form-content .row .supported-controls .selects .content .form form {
@@ -3152,5 +3161,406 @@ code {
 
 .form-content .row .supported-controls .selects .content .form form select[multiple] {
   height: auto;
+}
+
+.form-content .row .static-control .title h3 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.form-content .row .static-control .content {
+  margin-top: 10px;
+}
+
+.form-content .row .static-control .content .form {
+  border: 1px solid #e5e5e5;
+  background: #f8f8f8;
+  padding: 15px;
+}
+
+.form-content .row .static-control .content .form .title h4 {
+  text-transform: uppercase;
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.form-content .row .static-control .content .form form {
+  margin-top: 20px;
+}
+
+.form-content .row .static-control .content .form form .form-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px;
+}
+
+.form-content .row .static-control .content .form form .form-group:last-of-type {
+  margin-bottom: 0;
+}
+
+.form-content .row .static-control .content .form form .form-group .desc {
+  width: 83%;
+}
+
+.form-content .row .static-control .content .form form .form-group input {
+  width: 83%;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  color: #c2c2c2;
+  background: #ffffff;
+  height: 34px;
+  padding: 6px 12px;
+}
+
+.form-content .row .input-focus .title h3 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.form-content .row .input-focus .content {
+  margin-top: 10px;
+}
+
+.form-content .row .input-focus .content .form {
+  border: 1px solid #e5e5e5;
+  background: #f8f8f8;
+  padding: 15px;
+}
+
+.form-content .row .input-focus .content .form .title h4 {
+  font-size: 12px;
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+.form-content .row .input-focus .content .form form {
+  margin-top: 20px;
+}
+
+.form-content .row .input-focus .content .form form input {
+  width: 100%;
+  background: #ffffff;
+  height: 34px;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  color: #c2c2c2;
+  padding: 6px 12px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.form-content .row .input-focus .content .form form input:focus {
+  border-color: rgba(82, 168, 236, 0.8);
+  -webkit-box-shadow: 0 0 8px rgba(82, 168, 236, 0.6);
+          box-shadow: 0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+.form-content .row .input-focus .content .demo-focus {
+  margin-top: 20px;
+  background: #f4f8fa;
+  border-left: 3px solid #5bc0de;
+  padding: 20px;
+}
+
+.form-content .row .input-focus .content .demo-focus h5 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #5bc0de;
+}
+
+.form-content .row .input-focus .content .demo-focus h5 span {
+  background: #ffffff;
+  border-radius: 3px;
+  color: #c7254e;
+  padding: 2px 4px;
+  font-size: 90%;
+}
+
+.form-content .row .input-focus .content .demo-focus p {
+  margin-top: 5px;
+}
+
+.form-content .row .input-focus .content .demo-focus p span {
+  background: #ffffff;
+  border-radius: 3px;
+  color: #c7254e;
+  padding: 2px 4px;
+  font-size: 90%;
+}
+
+.form-content .row .validation-states .title h3 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.form-content .row .validation-states .title p {
+  line-height: 22px;
+}
+
+.form-content .row .validation-states .content {
+  margin-top: 10px;
+}
+
+.form-content .row .validation-states .content .form {
+  border: 1px solid #e5e5e5;
+  background: #f8f8f8;
+  padding: 15px;
+}
+
+.form-content .row .validation-states .content .form .title h4 {
+  text-transform: uppercase;
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.form-content .row .validation-states .content .form form {
+  margin-top: 20px;
+}
+
+.form-content .row .validation-states .content .form form .form-group {
+  margin-bottom: 15px;
+}
+
+.form-content .row .validation-states .content .form form .form-group:last-of-type {
+  margin-bottom: 0;
+}
+
+.form-content .row .validation-states .content .form form .form-group p {
+  font-weight: bold;
+}
+
+.form-content .row .validation-states .content .form form .form-group input {
+  background: #ffffff;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  color: #c2c2c2;
+  border-radius: 2px;
+  border: 1px solid #d9d9d9;
+  margin-top: 5px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.form-content .row .validation-states .content .form form .has-success p {
+  color: #468847;
+}
+
+.form-content .row .validation-states .content .form form .has-success input {
+  border-color: #468847;
+}
+
+.form-content .row .validation-states .content .form form .has-success input:focus {
+  -webkit-box-shadow: 0 0 8px rgba(70, 136, 71, 0.6);
+          box-shadow: 0 0 8px rgba(70, 136, 71, 0.6);
+}
+
+.form-content .row .validation-states .content .form form .has-warning p {
+  color: #c09853;
+}
+
+.form-content .row .validation-states .content .form form .has-warning input {
+  border-color: #c09853;
+}
+
+.form-content .row .validation-states .content .form form .has-warning input:focus {
+  -webkit-box-shadow: 0 0 8px rgba(192, 152, 83, 0.6);
+          box-shadow: 0 0 8px rgba(192, 152, 83, 0.6);
+}
+
+.form-content .row .validation-states .content .form form .has-error p {
+  color: #b94a48;
+}
+
+.form-content .row .validation-states .content .form form .has-error input {
+  border-color: #b94a48;
+}
+
+.form-content .row .validation-states .content .form form .has-error input:focus {
+  -webkit-box-shadow: 0 0 8px rgba(185, 74, 72, 0.6);
+          box-shadow: 0 0 8px rgba(185, 74, 72, 0.6);
+}
+
+.form-content .row .control-sizing .title h3 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.form-content .row .control-sizing .height-sizing {
+  margin-top: 20px;
+}
+
+.form-content .row .control-sizing .height-sizing .title h4 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.form-content .row .control-sizing .height-sizing .content {
+  margin-top: 10px;
+}
+
+.form-content .row .control-sizing .height-sizing .content .form {
+  border: 1px solid #e5e5e5;
+  background: #f8f8f8;
+  padding: 15px;
+}
+
+.form-content .row .control-sizing .height-sizing .content .form .title h3 {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  opacity: 0.6;
+}
+
+.form-content .row .control-sizing .height-sizing .content .form form {
+  margin-top: 20px;
+}
+
+.form-content .row .control-sizing .height-sizing .content .form form input {
+  background: #ffffff;
+  width: 100%;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  color: #c2c2c2;
+  margin-top: 10px;
+}
+
+.form-content .row .control-sizing .height-sizing .content .form form input:first-of-type {
+  margin-top: 0;
+}
+
+.form-content .row .control-sizing .height-sizing .content .form form .input-lg {
+  height: 45px;
+  padding: 10px 16px;
+  font-size: 18px;
+}
+
+.form-content .row .control-sizing .height-sizing .content .form form .default-input {
+  height: 34px;
+  padding: 6px 12px;
+}
+
+.form-content .row .control-sizing .height-sizing .content .form form .input-sm {
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+.form-content .row .control-sizing .height-sizing .content .form form select {
+  margin-top: 10px;
+  display: block;
+  border: 1px solid #d9d9d9;
+  width: 100%;
+  border-radius: 2px;
+  color: #c2c2c2;
+  background: #ffffff;
+}
+
+.form-content .row .control-sizing .height-sizing .content .form form select:focus {
+  outline: 0;
+}
+
+.form-content .row .control-sizing .column-sizing {
+  margin-top: 20px;
+}
+
+.form-content .row .control-sizing .column-sizing .title h4 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.form-content .row .control-sizing .column-sizing .content {
+  margin-top: 10px;
+}
+
+.form-content .row .control-sizing .column-sizing .content .form {
+  border: 1px solid #e5e5e5;
+  background: #f8f8f8;
+  padding: 15px;
+}
+
+.form-content .row .control-sizing .column-sizing .content .form .title h4 {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  opacity: 0.6;
+}
+
+.form-content .row .control-sizing .column-sizing .content .form form {
+  margin-top: 20px;
+}
+
+.form-content .row .control-sizing .column-sizing .content .form form input {
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  color: #c2c2c2;
+  height: 34px;
+  padding: 6px 12px;
+  margin-left: 30px;
+}
+
+.form-content .row .control-sizing .column-sizing .content .form form input:first-of-type {
+  margin-left: 0;
+}
+
+.form-content .row .control-sizing .column-sizing .content .form form .col-xs-2 {
+  width: 16%;
+}
+
+.form-content .row .control-sizing .column-sizing .content .form form .col-xs-3 {
+  width: 25%;
+}
+
+.form-content .row .control-sizing .column-sizing .content .form form .col-xs-4 {
+  width: 33%;
+}
+
+.form-content .row .help-text .title h3 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.form-content .row .help-text .content {
+  margin-top: 10px;
+}
+
+.form-content .row .help-text .content .form {
+  border: 1px solid #e5e5e5;
+  background: #f8f8f8;
+  padding: 15px;
+}
+
+.form-content .row .help-text .content .form .title h4 {
+  text-transform: uppercase;
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.form-content .row .help-text .content .form form {
+  margin-top: 20px;
+}
+
+.form-content .row .help-text .content .form form input {
+  border: 1px solid #d9d9d9;
+  background: #ffffff;
+  height: 34px;
+  padding: 6px 12px;
+  border-radius: 2px;
+  color: #c2c2c2;
+  width: 100%;
+}
+
+.form-content .row .help-text .content .form form p {
+  margin-top: 5px;
+  color: #737373;
 }
 /*# sourceMappingURL=style.css.map */
