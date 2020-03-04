@@ -1,0 +1,269 @@
+.table-content
+  padding: 60px 0 
+  & h1 
+    font-size: 36px 
+    font-weight: 500
+  & .table-line 
+    margin: 10px 0 20px 
+    width: 100%
+    height: 1px 
+    background: #eeeeee
+  & .row 
+    margin-top: 20px 
+    &:first-of-type
+      margin-top: 0
+    & .basic-example 
+      & .title 
+        & h3 
+          font-size: 30px 
+          font-weight: 500
+        & p 
+          line-height: 22px 
+      & .content 
+        margin-top: 10px 
+        border: 1px solid #e5e5e5
+        background: #f8f8f8
+        padding: 15px 
+        & .title 
+          & h4 
+            font-size: 12px 
+            text-transform: uppercase
+            opacity: 0.6
+        & .table 
+          width: 100%
+          margin-top: 20px 
+          & thead 
+            & tr 
+              & th 
+                border-bottom: 2px solid #dddddd
+                padding: 8px 
+          & tbody 
+            & tr 
+              & td 
+                padding: 8px 
+                border-top: 1px solid #dddddd
+    & .striped-rows
+      & .title 
+        & h3 
+          font-size: 30px 
+          font-weight: 500
+      & .content 
+        margin-top: 10px 
+        border: 1px solid #e5e5e5
+        background: #f8f8f8
+        padding: 15px 
+        & .title 
+          & h4 
+            text-transform: uppercase
+            font-size: 12px 
+            opacity: 0.6
+        & .table 
+          margin-top: 20px 
+          width: 100%
+          & thead 
+            & tr 
+              & th 
+                border-bottom: 2px solid #dddddd
+                padding: 8px 
+          & tbody 
+            & tr 
+              & td 
+                padding: 8px 
+                border-top: 1px solid #dddddd
+    & .bordered-table
+      & .title 
+        & h3 
+          font-size: 30px 
+          font-weight: 500
+      & .content 
+        margin-top: 10px 
+        border: 1px solid #e5e5e5
+        background: #f8f8f8
+        padding: 15px 
+        & .title 
+          & h4 
+            text-transform: uppercase
+            font-size: 12px 
+            opacity: 0.6
+        & .table 
+          margin-top: 20px 
+          width: 100%
+          border: 1px solid #dddddd
+          & thead 
+            & tr 
+              & th 
+                border-bottom: 2px solid #dddddd
+                border-right: 1px solid #dddddd
+                padding: 8px 
+          & tbody 
+            & tr 
+              & td 
+                padding: 8px 
+                border: 1px solid #dddddd
+    & .hover-rows
+      & .title 
+        & h3 
+          font-size: 30px 
+          font-weight: 500
+      & .content 
+        margin-top: 10px 
+        border: 1px solid #e5e5e5
+        background: #f8f8f8
+        padding: 15px 
+        & .title 
+          & h4 
+            text-transform: uppercase
+            font-size: 12px 
+            opacity: 0.6
+        & .table 
+          margin-top: 20px 
+          width: 100%
+          & thead 
+            & tr 
+              & th 
+                border-bottom: 2px solid #dddddd
+                padding: 8px 
+          & tbody 
+            & tr 
+              transition: 0.3s 
+              &:hover
+                background: #dddddd
+              & td 
+                padding: 8px 
+                border-top: 1px solid #dddddd
+    & .condensed-table
+      & .title 
+        & h3 
+          font-size: 30px 
+          font-weight: 500
+      & .content 
+        margin-top: 10px 
+        border: 1px solid #e5e5e5
+        background: #f8f8f8
+        padding: 15px 
+        & .title 
+          & h4 
+            text-transform: uppercase
+            font-size: 12px 
+            opacity: 0.6
+        & .table 
+          margin-top: 20px 
+          width: 100%
+          & thead 
+            & tr 
+              & th 
+                border-bottom: 2px solid #dddddd
+                padding: 8px 
+          & tbody 
+            & tr 
+              transition: 0.3s 
+              &:hover
+                background: #dddddd
+              & td 
+                padding: 8px 
+                border-top: 1px solid #dddddd
+    & .contextual-classes
+      & .title 
+        & h3 
+          font-size: 30px 
+          font-weight: 500
+      & .content 
+        margin-top: 10px 
+        & .classes-group 
+          & .table 
+            width: 100%
+            border: 1px solid #dddddd
+            & thead 
+              & tr 
+                & th 
+                  border-bottom: 2px solid #dddddd
+                  padding: 8px 
+                  &:first-of-type
+                    border-right: 1px solid #dddddd
+            & tbody 
+              & tr 
+                &:nth-child(odd)
+                  background: #f9f9f9
+                & td 
+                  border: 1px solid #dddddd
+                  padding: 8px 
+        & .group-content
+          margin-top: 20px 
+          border: 1px solid #dddddd
+          padding: 15px 
+          background: #f8f8f8
+          & .title 
+            & h4 
+              text-transform: uppercase
+              font-size: 12px 
+              opacity: 0.6
+          & .table 
+            width: 100%
+            margin-top: 20px 
+          & thead 
+            & tr 
+              & th 
+                border-bottom: 2px solid #dddddd
+                padding: 8px 
+          & tbody 
+            & .active 
+              background: #dddddd
+            & .success 
+              background: #DFF0D8
+            & .info 
+              background: rgba(#37bc9b,0.5)
+            & .warning
+              background: #FCF8E3
+            & .danger 
+              background: #F2DEDE
+            & tr 
+              & td 
+                padding: 8px 
+                border-top: 1px solid #dddddd
+    & .responsive-tables
+      & .title 
+        & h3 
+          font-size: 30px 
+          font-weight: 500
+      & .content 
+        margin-top: 10px 
+        border: 1px solid #e5e5e5
+        background: #f8f8f8
+        padding: 15px 
+        & .title 
+          & h4 
+            font-size: 12px 
+            text-transform: uppercase
+            opacity: 0.6
+        & .table1 
+          margin-top: 20px 
+          width: 100%
+          background: #ffffff
+          & thead 
+            & tr 
+              & th 
+                border-bottom: 2px solid #dddddd
+                padding: 8px 
+          & tbody 
+            & tr 
+              & td 
+                padding: 8px 
+                border-top: 1px solid #dddddd
+        & .table2
+          margin-top: 20px 
+          width: 100%
+          background: #ffffff
+          & thead 
+            & tr 
+              & th 
+                border-bottom: 2px solid #dddddd
+                padding: 8px 
+          & tbody 
+            & tr 
+              & td 
+                padding: 8px 
+                border-top: 1px solid #dddddd
+
+
+
+
