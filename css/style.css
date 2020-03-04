@@ -3953,4 +3953,194 @@ code {
   padding: 8px;
   border-top: 1px solid #dddddd;
 }
+
+.top-about {
+  padding: 30px 0;
+  background: #34495e;
+}
+
+.top-about .top-about-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top-about .top-about-wrap .logo h3 {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: 'Lato-Semibold';
+}
+
+.top-about .top-about-wrap .about-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.top-about .top-about-wrap .about-nav a {
+  color: #48cfad;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.top-about .top-about-wrap .about-nav a:first-of-type {
+  margin-left: 0;
+}
+
+.top-about .top-about-wrap .about-nav p {
+  color: #ffffff;
+  margin-left: 5px;
+}
+
+.about-content {
+  padding: 50px 0;
+}
+
+.about-content .row .about-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.about-content .row .about-header .left {
+  width: 40%;
+}
+
+.about-content .row .about-header .left .about-slider-wrap {
+  position: relative;
+}
+
+.about-content .row .about-header .left .about-slider-wrap .about-slider .slick-list {
+  overflow: hidden;
+}
+
+.about-content .row .about-header .left .about-slider-wrap .about-slider .slick-list .slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about-content .row .about-header .left .about-slider-wrap .about-slider .slick-list .slick-track .about-slider-block .img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.about-content .row .about-header .left .about-slider-wrap .about-slider .slick-list .slick-track .about-slider-block .img img {
+  width: 100%;
+  height: 100%;
+}
+
+.about-content .row .about-header .left .about-slider-wrap .about-slider .slick-list .slick-track .about-slider-block .img .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.about-content .row .about-header .left .about-slider-wrap .about-slider .slick-list .slick-track .about-slider-block .img .overlay h3 {
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 15px 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.about-content .row .about-header .left .about-slider-wrap button {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 10;
+  opacity: .5;
+}
+
+.about-content .row .about-header .left .about-slider-wrap button:hover {
+  opacity: .6;
+}
+
+.about-content .row .about-header .left .about-slider-wrap button .fas {
+  font-family: 'fa-solid-900';
+  background: #000000;
+  color: #FFFFFF;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 45px;
+  height: 55px;
+}
+
+.about-content .row .about-header .left .about-slider-wrap .about-slider-left {
+  left: 0;
+}
+
+.about-content .row .about-header .left .about-slider-wrap .about-slider-right {
+  right: 0;
+}
+
+.about-content .row .about-header .right {
+  width: 58%;
+}
+
+.about-content .row .about-header .right .block1 p {
+  line-height: 22px;
+}
+
+.about-content .row .about-header .right .block2 {
+  margin-top: 10px;
+}
+
+.about-content .row .about-header .right .block2 p {
+  position: relative;
+  line-height: 25px;
+  padding-left: 20px;
+}
+
+.about-content .row .about-header .right .block2 p::before {
+  content: '>';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.about-content .row .about-header .right .block3 {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-left: 5px solid #eeeeee;
+}
+
+.about-content .row .about-header .right .block3 p {
+  font-size: 18px;
+  line-height: 1.25;
+}
+
+.about-content .row .about-header .right .block3 small {
+  margin-top: 10px;
+  display: block;
+  color: #999999;
+  font-size: 85%;
+}
 /*# sourceMappingURL=style.css.map */
