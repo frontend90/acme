@@ -4560,4 +4560,250 @@ code {
 .about-content .row .team .content .card .desc .social a .fab:hover {
   color: #48cfad;
 }
+
+.top-error {
+  padding: 30px 0;
+  background: #34495e;
+}
+
+.top-error .top-error-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top-error .top-error-wrap .logo h3 {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: 'Lato-Semibold';
+}
+
+.top-error .top-error-wrap .error-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.top-error .top-error-wrap .error-nav a {
+  color: #48cfad;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.top-error .top-error-wrap .error-nav a:first-of-type {
+  margin-left: 0;
+}
+
+.top-error .top-error-wrap .error-nav p {
+  color: #ffffff;
+  margin-left: 5px;
+}
+
+.error-content {
+  background: #f9f9f3;
+  padding: 15% 0;
+}
+
+.error-content .title {
+  text-align: center;
+}
+
+.error-content .title h4 {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.error-content .title p {
+  margin-top: 10px;
+}
+
+.error-content .title .btn {
+  margin-top: 10px;
+}
+
+.error-content .title .btn button {
+  text-transform: uppercase;
+}
+
+.top-career {
+  padding: 30px 0;
+  background: #34495e;
+}
+
+.top-career .top-career-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top-career .top-career-wrap .logo h3 {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: 'Lato-Semibold';
+}
+
+.top-career .top-career-wrap .career-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.top-career .top-career-wrap .career-nav a {
+  color: #48cfad;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.top-career .top-career-wrap .career-nav a:first-of-type {
+  margin-left: 0;
+}
+
+.top-career .top-career-wrap .career-nav p {
+  color: #ffffff;
+  margin-left: 5px;
+}
+
+.career-content {
+  padding: 40px 0;
+}
+
+.career-content .row .career-header {
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.career-content .row .career-header .title {
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.career-content .row .career-header .title h4 {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.career-content .row .career-header .content {
+  margin-top: 20px;
+}
+
+.career-content .row .career-header .content p {
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+
+.career-content .row .career-header .content .link {
+  text-align: center;
+}
+
+.career-content .row .career-header .content .link a {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  border: 1px solid #eeeeee;
+  background-color: #f7f7f7;
+  width: 400px;
+  height: 43px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #797979;
+  font-weight: bold;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.career-content .row .career-header .content .link a:hover {
+  background: #eeeeee;
+}
+
+.career-content .row .career-header .content .link a .fas {
+  font-family: 'fa-solid-900';
+  padding-right: 10px;
+}
+
+.career-content .row .career-header .content .link a span {
+  font-weight: normal;
+  font-style: italic;
+  padding-left: 5px;
+}
+
+.career-content .row .block-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.career-content .row .block-content .block {
+  width: 50%;
+  margin-left: 30px;
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 20px;
+}
+
+.career-content .row .block-content .block:first-of-type {
+  margin-left: 0;
+}
+
+.career-content .row .block-content .block .title h4 {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.career-content .row .block-content .block .title p {
+  margin-top: 10px;
+  line-height: 22px;
+}
+
+.career-content .row .block-content .block .content {
+  margin-top: 10px;
+}
+
+.career-content .row .block-content .block .content h6 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.career-content .row .block-content .block .content p {
+  padding: 3px 0;
+  position: relative;
+  padding-left: 20px;
+}
+
+.career-content .row .block-content .block .content p::before {
+  content: '>';
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 0;
+}
+
+.career-content .row .block-content .block .content .btn {
+  margin-top: 10px;
+}
 /*# sourceMappingURL=style.css.map */
