@@ -5134,4 +5134,175 @@ code {
   border-top: 1px solid #e5e5e5;
   text-align: right;
 }
+
+.top-registration {
+  padding: 30px 0;
+  background: #34495e;
+}
+
+.top-registration .top-registration-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top-registration .top-registration-wrap .logo h3 {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: 'Lato-Semibold';
+}
+
+.top-registration .top-registration-wrap .registration-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.top-registration .top-registration-wrap .registration-nav a {
+  color: #48cfad;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.top-registration .top-registration-wrap .registration-nav a:first-of-type {
+  margin-left: 0;
+}
+
+.top-registration .top-registration-wrap .registration-nav p {
+  color: #ffffff;
+  margin-left: 5px;
+}
+
+.registration-content {
+  padding: 50px 0;
+  background: #f1f2f7;
+}
+
+.registration-content .form {
+  width: 330px;
+  margin: auto;
+  background: #ffffff;
+  border-radius: 3px;
+}
+
+.registration-content .form .title {
+  text-align: center;
+}
+
+.registration-content .form .title h4 {
+  padding: 20px 15px;
+  background: #48cfad;
+  color: #ffffff;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.registration-content .form form {
+  padding: 20px;
+}
+
+.registration-content .form form p {
+  text-align: center;
+  color: #b6b6b6;
+  font-size: 16px;
+}
+
+.registration-content .form form .group-input1 input {
+  border: 1px solid #eaeaea;
+  border-radius: 3px;
+  font-size: 12px;
+  width: 100%;
+  margin-top: 15px;
+  height: 38px;
+  padding: 10px;
+  color: #c2c2c2;
+}
+
+.registration-content .form form .group-radio {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 15px;
+}
+
+.registration-content .form form .group-input2 {
+  margin-top: 5px;
+}
+
+.registration-content .form form .group-input2 input {
+  border: 1px solid #eaeaea;
+  border-radius: 3px;
+  font-size: 12px;
+  width: 100%;
+  margin-top: 15px;
+  height: 38px;
+  padding: 10px;
+  color: #c2c2c2;
+}
+
+.registration-content .form form .checkbox {
+  margin-top: 15px;
+}
+
+.registration-content .form form .checkbox span {
+  color: #b6b6b6;
+}
+
+.registration-content .form form .btn {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.registration-content .form form .btn button {
+  background: #48cfad;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 3px;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  padding: 10px 16px;
+  font-size: 18px;
+  width: 100%;
+}
+
+.registration-content .form form .btn button:hover {
+  background: #37bc9b;
+}
+
+.registration-content .form form .help {
+  margin-top: 20px;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.registration-content .form form .help a {
+  color: #41cac0;
+  display: inline-block;
+  margin-left: 5px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.registration-content .form form .help a:hover {
+  color: #b6b6b6;
+}
 /*# sourceMappingURL=style.css.map */
