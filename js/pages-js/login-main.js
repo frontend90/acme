@@ -5,7 +5,7 @@ wow = new WOW({
 })
 wow.init();
 
-/*********************  плавный скролл    *********/
+/*********************  плавный скролл    **************/
 $(document).ready(function () {
   $('a[href^="#"]').click(function () {
     elementClick = $(this).attr("href");
@@ -21,4 +21,15 @@ $(document).ready(function () {
     }
     return false;
   });
+});
+
+/***************      login-modal    **************/
+$('.link a').click(function () {
+  $('.login-modal').addClass('show');
+  $('body').addClass('no-scroll');
+});
+
+$('.close .fas').click(function () {
+  $('.login-modal').removeClass('show');
+  $('body').removeClass('no-scroll');
 });

@@ -44,6 +44,10 @@ body {
   font-family: 'Lato-Regular';
 }
 
+body.no-scroll {
+  overflow: hidden;
+}
+
 .container {
   max-width: 1170px;
   margin: auto;
@@ -5023,5 +5027,111 @@ code {
 
 .login-content .form form .help a:hover {
   color: #b6b6b6;
+}
+
+.login-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1040;
+  -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s;
+  background: rgba(221, 221, 221, 0.7);
+  -webkit-transform: translate(-50%, -100vh);
+      -ms-transform: translate(-50%, -100vh);
+          transform: translate(-50%, -100vh);
+}
+
+.login-modal.show {
+  -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+
+.login-modal .login-modal-wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: #ffffff;
+  width: 600px;
+  border-radius: 1px;
+}
+
+.login-modal .login-modal-wrap .close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 20px;
+  height: 20px;
+}
+
+.login-modal .login-modal-wrap .close .fas {
+  font-family: 'fa-solid-900';
+  font-size: 20px;
+  color: #000000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .2;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.login-modal .login-modal-wrap .close .fas:hover {
+  opacity: 1;
+}
+
+.login-modal .login-modal-wrap .title {
+  background: #00A8B3;
+  padding: 15px;
+  color: #ffffff;
+}
+
+.login-modal .login-modal-wrap .title h4 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.login-modal .login-modal-wrap .content {
+  padding: 30px 15px;
+}
+
+.login-modal .login-modal-wrap .content form p {
+  text-align: center;
+  color: #b6b6b6;
+  font-size: 16px;
+}
+
+.login-modal .login-modal-wrap .content form input {
+  border: 1px solid #eaeaea;
+  font-size: 12px;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 3px;
+  height: 38px;
+  padding: 10px;
+  color: #c2c2c2;
+}
+
+.login-modal .login-modal-wrap .content form .btn {
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 1px solid #e5e5e5;
+  text-align: right;
 }
 /*# sourceMappingURL=style.css.map */
