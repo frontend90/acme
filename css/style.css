@@ -5737,4 +5737,160 @@ code {
 .faq-content .row .our-clients .our-clients-wrap .our-clients-slider-wrap .btn .our-clients-slider-right p {
   margin-right: 5px;
 }
+
+.top_pricing-table-one {
+  padding: 30px 0;
+  background: #34495e;
+}
+
+.top_pricing-table-one .top_pricing-table-one_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top_pricing-table-one .top_pricing-table-one_wrap .logo h3 {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.top_pricing-table-one .top_pricing-table-one_wrap .pricing-table-one_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.top_pricing-table-one .top_pricing-table-one_wrap .pricing-table-one_nav a {
+  color: #48cfad;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.top_pricing-table-one .top_pricing-table-one_wrap .pricing-table-one_nav a:first-of-type {
+  margin-left: 0;
+}
+
+.top_pricing-table-one .top_pricing-table-one_wrap .pricing-table-one_nav p {
+  color: #ffffff;
+  margin-left: 5px;
+}
+
+.pricing-table-one_content {
+  padding: 50px 0;
+  background: #f9f9f3;
+}
+
+.pricing-table-one_content .title {
+  text-align: center;
+}
+
+.pricing-table-one_content .title h4 {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.pricing-table-one_content .title p {
+  margin-top: 10px;
+}
+
+.pricing-table-one_content .content {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+}
+
+.pricing-table-one_content .content .card {
+  width: 25%;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  border-radius: 1px;
+  margin-left: 15px;
+}
+
+.pricing-table-one_content .content .card:first-of-type {
+  margin-left: 0;
+}
+
+.pricing-table-one_content .content .card .card-header h5 {
+  padding: 30px 0;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.pricing-table-one_content .content .card .price {
+  padding: 30px 0;
+  background: #EEC;
+  border-radius: 50%;
+  font-weight: 100;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pricing-table-one_content .content .card .price span {
+  font-size: 50px;
+}
+
+.pricing-table-one_content .content .card .price span:first-of-type {
+  font-size: 25px;
+  line-height: 60px;
+}
+
+.pricing-table-one_content .content .card .desc {
+  margin-top: 25px;
+}
+
+.pricing-table-one_content .content .card .desc p {
+  border-bottom: 1px dotted #CCCCCC;
+  padding: 14px 0;
+}
+
+.pricing-table-one_content .content .card .btn {
+  padding: 20px 0;
+}
+
+.pricing-table-one_content .content .card .btn button {
+  border-radius: 5px;
+  background: #48cfad;
+  color: #ffffff;
+  padding: 10px 20px;
+  width: 90%;
+}
+
+.pricing-table-one_content .content .active {
+  background: #48cfad;
+  border: 1px solid #16a085;
+  color: #ffffff;
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.pricing-table-one_content .content .active .price {
+  background: #16a085;
+}
+
+.pricing-table-one_content .content .active .desc p {
+  border-bottom: 1px dotted #ffffff;
+}
+
+.pricing-table-one_content .content .active .btn button {
+  background: #f35958;
+}
 /*# sourceMappingURL=style.css.map */
