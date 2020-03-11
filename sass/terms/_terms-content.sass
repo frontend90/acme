@@ -1,0 +1,25 @@
+.terms-content
+  padding: 50px 0
+  & .row 
+    margin-top: 50px 
+    &:first-of-type
+      margin-top: 0
+    & .block
+      & h5 
+        font-size: 24px 
+        font-weight: 500
+      & p 
+        margin-top: 10px 
+        line-height: 22px 
+    & .others 
+      & .content 
+        margin-top: 10px 
+        padding-left: 15px 
+        & p 
+          margin-top: 0
+          line-height: 22px 
+          position: relative
+          &::before
+            content: ''
+            +solid 
+            padding-right: 10px 
