@@ -1,0 +1,259 @@
+.service-content
+  padding: 40px 0 
+  & .row 
+    margin-top: 50px 
+    &:first-of-type
+      margin-top: 0
+    & .service-header 
+      display: flex 
+      justify-content: space-between
+      & .left 
+        width: 40%
+        & .service-slider-wrap 
+          position: relative
+          & .service-slider 
+            & .slick-list 
+              overflow: hidden
+              & .slick-track 
+                display: flex 
+                & .service-slider-block
+                  & .img 
+                    height: 100%
+                    width: 100%
+                    position: relative
+                    & img 
+                      width: 100%
+                      height: 100%
+                    & .overlay 
+                      position: absolute
+                      left: 0
+                      bottom: 0
+                      right: 0
+                      text-align: center
+                      & h3 
+                        color: #ffffff
+                        background: rgba(#000000,0.6)
+                        padding: 15px 0
+                        font-size: 14px 
+                        font-weight: 400
+                        line-height: 22px 
+          & button  
+            position: absolute
+            top: 50%
+            transform: translateY(-50%)
+            z-index: 10
+            opacity: .5
+            &:hover
+              opacity: .6
+            & .fas 
+              +solid 
+              background: #000000
+              color: #FFFFFF
+              font-size: 20px
+              display: flex 
+              align-items: center
+              justify-content: center
+              width: 45px 
+              height: 55px 
+          & .service-slider-left 
+            left: 0
+          & .service-slider-right 
+            right: 0
+      & .right 
+        width: 58%
+        & .block 
+          & h4 
+            color: #475168
+            font-size: 24px
+            font-weight: 500
+          & p 
+            line-height: 22px 
+            margin-top: 10px 
+    & .our-services
+      background: #f2f2f2
+      padding: 30px 0 
+      & .title 
+        text-align: center
+        & h4 
+          font-size: 30px 
+          font-weight: 300
+          text-transform: uppercase 
+        & p 
+          margin-top: 20px 
+          color: #8a8b8b
+          font-size: 18px
+      & .content 
+        margin-top: 25px 
+        & .block 
+          display: flex 
+          justify-content: space-between
+          margin-top: 30px 
+          &:first-of-type
+            margin-top: 0
+          & .box 
+            width: 50%
+            margin-left: 30px 
+            &:first-of-type
+              margin-left: 0
+            & .box-wrap 
+              display: flex 
+              & .icon 
+                & .fas 
+                  +solid 
+                  background: #48cfad
+                  font-size: 28px 
+                  color: #ffffff
+                  height: 60px 
+                  width: 60px 
+                  display: flex 
+                  justify-content: center
+                  align-items: center
+                  border-radius: 5px 
+              & .desc 
+                margin-left: 30px 
+                & h5 
+                  font-size: 20px 
+                  color: #475168
+                  font-weight: 500
+                & p 
+                  margin-top: 10px 
+                  line-height: 22px 
+    & .service-work 
+      padding: 50px 0 
+      & .title 
+        text-align: center
+        & h5 
+          text-transform: uppercase
+          font-size: 24px 
+          font-weight: 400
+        & p
+          margin-top: 20px 
+          text-transform: uppercase
+      & .service-work-slider 
+        margin-top: 35px 
+        & .slick-list 
+          overflow: hidden
+          & .slick-track 
+            display: flex
+            justify-content: space-between
+            & .service-work-block 
+              margin-left: 5px
+            &:first-of-type
+              margin-left: 0 
+            & .img 
+              width: 100%
+              height: 100%
+              position: relative
+              overflow: hidden
+              &:hover img 
+                transform: scale(5)
+                opacity: 0.5
+              &:hover .overlay 
+                opacity: 1
+              & img 
+                width: 100%
+                height: auto  
+                transition: 0.3s
+              & .overlay 
+                position: absolute
+                top: 50%
+                left: 50%
+                transform: translate(-50%,-50%)
+                opacity: 0
+                transition: 0.3s
+                & a 
+                  display: block 
+                  position: relative
+                  &:hover .target 
+                    opacity: 1
+                & .fas 
+                  +solid 
+                  font-size: 16px 
+                  color: #ffffff
+                  background: rgba(#000000,0.6)
+                  border-radius: 50%
+                  width: 50px
+                  height: 50px
+                  display: flex
+                  align-items: center
+                  justify-content: center
+                  transition: all 0.3s linear
+                  &:hover
+                    background: #48cfad
+        & .slick-dots 
+          text-align: center
+          margin-top: 15px 
+          & li
+            display: inline-flex
+            margin-left: 7px 
+            &:first-of-type
+              margin-left: 0
+            & button 
+              font-size: 0
+              width: 12px 
+              height: 12px 
+              border-radius: 50%
+              background: #869791
+              opacity: 0.5
+              transition: 0.3s
+              &:hover
+                opacity: 1
+          & .slick-active 
+            & button 
+              opacity: 1
+    & .service-plan
+      background: #f9f9f3
+      padding: 30px 0
+      & .title 
+        text-align: center
+        & h4 
+          font-size: 36px 
+          font-weight: 500
+          text-transform: uppercase
+          border-bottom: 1px solid #c7c7c7
+          display: inline-block 
+          padding-bottom: 5px 
+      & .content 
+        margin-top: 20px 
+        display: flex 
+        justify-content: space-between
+        text-align: center
+        & .card 
+          background: #ffffff
+          border: 1px solid #eee
+          border-radius: 1px
+          padding: 30px 0
+          width: 25%
+          margin-left: 30px 
+          &:first-of-type
+            margin-left: 0
+          & .card-header 
+            & h5 
+              font-size: 20px 
+              font-weight: 300
+          & .price 
+            margin-top: 30px 
+            background: #EEC
+            font-size: 50px
+            border-radius: 50%
+            display: inline-flex 
+            justify-content: center
+            width: 100%
+            & span 
+              &:first-of-type
+                font-size: 25px 
+                line-height: 2.4
+          & .desc 
+            margin-top: 25px 
+            & p 
+              border-bottom: 1px dotted #CCCCCC
+              margin: 0 28px 
+              padding: 14px 0
+          & .btn 
+            margin-top: 15px 
+            & button 
+              border-radius: 5px
+              background: #48cfad
+              color: #fff
+              padding: 10px 20px
+              width: 90%
