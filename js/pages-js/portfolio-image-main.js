@@ -24,7 +24,7 @@ $(document).ready(function () {
   });
 });
 
-/************    work slick    **************/
+/************    portfolio-image_work slick    **************/
 $('.portfolio-image_work-slider').slick({
   arrows: false,
   dots: true,
