@@ -23,3 +23,11 @@ $(document).ready(function () {
     return false;
   });
 });
+
+/************    work slick    **************/
+$('.portfolio-image_work-slider').slick({
+  arrows: false,
+  dots: true,
+  slidesToShow: 4,
+  slidesToScroll: 2
+});
