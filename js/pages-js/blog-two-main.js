@@ -23,9 +23,3 @@ $(document).ready(function () {
     return false;
   });
 });
-
-/*************     pagination     ******************/
-$('#blog-pagination').pagination({
-  items: 1,
-  contents: 'blog-contents'
-});
