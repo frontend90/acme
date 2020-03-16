@@ -1,0 +1,231 @@
+.blog-content
+  & .blog-content-wrap
+    display: flex 
+    justify-content: space-between
+    padding: 50px 0 
+    & .blog-pagination
+      width: 70%
+      & .blog-contents 
+        & .blog-block 
+          & .block 
+            margin-top: 40px 
+            border-bottom: 1px dashed #dddddd
+            padding-bottom: 40px 
+            &:first-of-type
+              margin-top: 0
+            & .top 
+              display: flex 
+              justify-content: space-between
+              & .date 
+                text-align: center
+                width: 16%
+                & .number 
+                  font-size: 30px
+                  background: #48cfad
+                  color: #ffffff
+                  border-radius: 1px 1px 0 0
+                  padding: 10px 0
+                & .month 
+                  font-size: 16px
+                  background: #f6f5f0
+                  color: #a19fa2
+                  border-radius: 0 0 1px 1px
+                  padding: 10px 0
+              & .img
+                width: 80%
+                & img 
+                  width: 100%
+            & .bottom  
+              margin-top: 25px 
+              display: flex 
+              justify-content: space-between
+              & .links 
+                width: 16%
+                text-align: right
+                & .author
+                  & p 
+                    font-size: 16px 
+                    & a 
+                      color: #48cfad
+                & .lists 
+                  margin-top: 30px 
+                  & a 
+                    display: block 
+                    color: #444e67
+                    transition: 0.3s
+                    font-style: italic
+                    &:hover
+                      color: #48cfad
+                & .view 
+                  margin-top: 20px 
+                  & a 
+                    display: block 
+                    margin-top: 5px 
+                    color: #48cfad
+                    &:first-of-type
+                      margin-top: 0
+              & .desc 
+                width: 80% 
+                & h5 
+                  line-height: 35px 
+                  font-size: 25px
+                  font-weight: 300
+                  & a 
+                    color: #48cfad
+                & p 
+                  margin-top: 20px 
+                  line-height: 22px 
+                & .btn 
+                  margin-top: 10px 
+                  & button 
+                    background-color: #3bafda
+                    transition: all .3s ease
+                    border-radius: 3px 
+                    color: #ffffff
+                    padding: 6px 12px 
+                    &:hover
+                      background: #249dc9
+      #page-navi
+        margin-top: 60px
+        margin-bottom: 0
+        display: inline-flex
+        justify-content: center 
+        width: 100%
+        border-radius: 4px 
+        & li 
+          list-style: none 
+          & .previos, & .next 
+            display: none 
+          & a 
+            padding: 6px 12px
+            background-color: #ffffff
+            border: 1px solid #dddddd
+            color: #444e67
+            margin-left: -1px 
+            transition: 0.3s
+            &:hover
+              color: #48cfad
+              background: #eeeeee
+          & .current 
+            background: #1abc9c
+            border-color: #16a085
+            color: #ffffff
+            cursor: default
+            &:hover
+              background: #1abc9c
+              border-color: #16a085
+              color: #ffffff
+    & .sidebar
+      width: 25%
+      & .search 
+        & input 
+          border: 1px solid #d9d9d9
+          border-radius: 2px 
+          color: #c2c2c2
+          width: 100%
+          height: 34px
+          padding: 6px 12px
+      & .categories 
+        margin-top: 30px 
+        & h5 
+          color: #475268
+          font-size: 18px 
+          font-weight: 500
+        & .content 
+          margin-top: 10px 
+          & a 
+            display: block 
+            position: relative
+            margin-bottom: 5px
+            border-bottom: 1px solid #efefef
+            line-height: 35px 
+            transition: 0.3s
+            color: #444e67
+            &:hover
+              color: #48cfad
+            &::before
+              content: '>'
+              padding-right: 10px 
+      & .blog-post
+        margin-top: 30px 
+        & h5 
+          font-size: 18px 
+          color: #475268
+          font-weight: 500
+        & .content 
+          margin-top: 10px 
+          & .block 
+            display: flex 
+            margin-top: 15px
+            justify-content: space-between 
+            &:first-of-type
+              margin-top: 0
+            & .desc 
+              margin-left: 10px 
+              & h5 
+                font-size: 14px 
+                & a 
+                  color: #444e67
+                  transition: 0.3s
+                  &:hover
+                    color: #48cfad
+              & p 
+                margin-top: 5px 
+                line-height: normal
+      & .tags
+        margin-top: 30px 
+        & h5 
+          color: #475268
+          font-size: 18px 
+          font-weight: 500
+        & .content 
+          margin-top: 10px 
+          display: flex 
+          flex-wrap: wrap
+          & a 
+            margin-right: 5px 
+            margin-bottom: 5px 
+            line-height: 35px 
+            border: 1px solid #e8e8e8
+            padding: 5px 
+            border-radius: 1px 1px 10px 1px 
+            line-height: 15px 
+            align-items: center
+            justify-content: center
+            color: #444e67
+            transition: 0.3s
+            white-space: nowrap
+            &:last-of-type
+              margin-bottom: 0
+            &:hover
+              color: #48cfad
+            & .fas 
+              +solid 
+              padding-right: 5px 
+      & .archive 
+        margin-top: 30px 
+        & h5 
+          font-size: 18px 
+          font-weight: 500
+          color: #475268
+        & .content 
+          margin-top: 10px 
+          & a 
+            display: block 
+            position: relative
+            margin-bottom: 5px
+            border-bottom: 1px solid #efefef
+            line-height: 35px
+            color: #444e67
+            transition: 0.3s
+            &::before
+              content: '>'
+              padding-right: 10px 
+            &:hover
+              color: #48cfad
+
+
+
+
+    
+    
