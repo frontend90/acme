@@ -1,0 +1,291 @@
+.blog-video-content
+  padding: 50px 0 
+  & .blog-video-wrap 
+    display: flex 
+    justify-content: space-between
+    & .blog-header 
+      width: 75%
+      border-bottom: 1px dashed #dddddd
+      padding-bottom: 50px 
+      & .block 
+        display: flex 
+        justify-content: space-between
+        margin-bottom: 25px 
+        & .date 
+          width: 13%
+          text-align: center
+          & .number 
+            font-size: 30px
+            background: #48cfad
+            color: #ffffff
+            border-radius: 1px 1px 0 0
+            padding: 10px 0 
+          & .month 
+            font-size: 16px
+            background: #f6f5f0
+            color: #a19fa2
+            border-radius: 0 0 1px 1px
+            padding: 10px 0 
+        & .video
+          width: 83%
+          & iframe
+            width: 100%
+            height: 425px 
+        & .links 
+          width: 13%
+          text-align: right
+          & .author 
+            & p 
+              font-size: 16px 
+              & a 
+                color: #48cfad
+          & .lists 
+            margin-top: 30px 
+            & a 
+              display: block
+              font-style: italic
+              color: #444e67
+              transition: 0.3s
+              &:hover
+                color: #48cfad
+          & .view 
+            margin-top: 20px 
+            position: relative
+            & .fas 
+              +solid 
+              position: absolute
+              top: 3px 
+              left: 30%
+            & a 
+              display: block 
+              margin-bottom: 5px 
+              color: #48cfad
+        & .desc 
+          width: 83%
+          & h5 
+            font-size: 25px
+            font-weight: 300
+            & a 
+              color: #48cfad
+          & p 
+            margin-top: 20px 
+            line-height: 22px 
+          & blockquote
+            margin-top: 10px 
+            padding: 10px 20px 
+            border-left: 5px solid #eeeeee
+            & p 
+              font-size: 17px 
+              margin: 0
+            & small 
+              margin-top: 10px 
+              font-size: 85%
+              color: #999999
+      & .blog-comments
+        width: 83%
+        margin-left: 17%
+        & h6 
+          color: #475168
+          font-size: 20px 
+          font-weight: 500
+          border-bottom: 1px solid #eeeeee
+          padding-bottom: 20px 
+        & .content 
+          & .blog-comments-header
+            & .blog-comments-main
+              display: flex 
+              margin-top: 20px 
+              & .img 
+                & img 
+                  width: 80px 
+                  height: 80px 
+                  border-radius: 3px 
+              & .desc 
+                margin-left: 10px 
+                & h6 
+                  padding: 0
+                  border-bottom: none 
+                  font-size: 16px 
+                  color: #475168
+                  font-weight: 500
+                & a 
+                  display: block 
+                  margin-top: 5px 
+                  color: #444e67
+                  transition: 0.3s
+                  &:hover 
+                    color: #48cfad
+            & .blog-comments-block
+              margin-top: 20px 
+              margin-left: 90px 
+              padding-top: 20px 
+              display: flex 
+              border-top: 1px solid #eeeeee
+              &:last-of-type
+                border-bottom: 1px solid #eeeeee
+                padding-bottom: 20px 
+              & .img 
+                & img 
+                  width: 80px 
+                  height: 80px 
+                  border-radius: 3px 
+              & .desc 
+                margin-left: 10px 
+                & h6 
+                  padding: 0
+                  border-bottom: none 
+                  font-size: 16px 
+                  color: #475168
+                  font-weight: 500
+                & a 
+                  display: block 
+                  margin-top: 5px 
+                  color: #444e67
+                  transition: 0.3s
+                  &:hover 
+                    color: #48cfad             
+      & .post-comments   
+        margin-top: 20px 
+        margin-left: 17%
+        width: 83%
+        & h6 
+          font-size: 20px 
+          font-weight: 500
+          color: #47506a
+        & .form 
+          margin-top: 25px 
+          width: 100%
+          & form 
+            width: 100%
+            & .input-wrap
+              display: flex 
+              justify-content: space-between
+              & input 
+                border: 1px solid #d9d9d9
+                border-radius: 2px 
+                color: #c2c2c2
+                width: 100%
+                height: 34px 
+                padding: 6px 12px 
+                margin-left: 30px 
+                &:first-of-type
+                  margin-left: 0
+            & textarea 
+              border: 1px solid #d9d9d9
+              border-radius: 2px 
+              margin-top: 15px 
+              width: 100%
+              color: #c2c2c2
+              padding: 6px 12px 
+              height: 175px 
+            & .btn 
+              margin-top: 15px 
+              text-align: right
+    & .blog-sidebar
+      width: 22%
+      & .search 
+        & input 
+          border: 1px solid #d9d9d9
+          border-radius: 2px 
+          color: #c2c2c2
+          width: 100%
+          height: 34px
+          padding: 6px 12px
+      & .categories 
+        margin-top: 30px 
+        & h5 
+          color: #475268
+          font-size: 18px 
+          font-weight: 500
+        & .content 
+          margin-top: 10px 
+          & a 
+            display: block 
+            position: relative
+            margin-bottom: 5px
+            border-bottom: 1px solid #efefef
+            line-height: 35px 
+            transition: 0.3s
+            color: #444e67
+            &:hover
+              color: #48cfad
+            &::before
+              content: '>'
+              padding-right: 10px 
+      & .blog-post
+        margin-top: 30px 
+        & h5 
+          font-size: 18px 
+          color: #475268
+          font-weight: 500
+        & .content 
+          margin-top: 10px 
+          & .block 
+            display: flex 
+            margin-top: 15px
+            justify-content: space-between 
+            &:first-of-type
+              margin-top: 0
+            & .desc 
+              margin-left: 10px 
+              & h5 
+                font-size: 14px 
+                & a 
+                  color: #444e67
+                  transition: 0.3s
+                  &:hover
+                    color: #48cfad
+              & p 
+                margin-top: 5px 
+                line-height: normal
+      & .tags
+        margin-top: 30px 
+        & h5 
+          color: #475268
+          font-size: 18px 
+          font-weight: 500
+        & .content 
+          margin-top: 10px 
+          display: flex 
+          flex-wrap: wrap
+          & a 
+            margin-right: 5px 
+            margin-bottom: 5px 
+            line-height: 35px 
+            border: 1px solid #e8e8e8
+            padding: 5px 
+            border-radius: 1px 1px 10px 1px 
+            line-height: 15px 
+            align-items: center
+            justify-content: center
+            color: #444e67
+            transition: 0.3s
+            white-space: nowrap
+            &:last-of-type
+              margin-bottom: 0
+            &:hover
+              color: #48cfad
+            & .fas 
+              +solid 
+              padding-right: 5px 
+      & .archive 
+        margin-top: 30px 
+        & h5 
+          font-size: 18px 
+          font-weight: 500
+          color: #475268
+        & .content 
+          margin-top: 10px 
+          & a 
+            display: block 
+            position: relative
+            margin-bottom: 5px
+            border-bottom: 1px solid #efefef
+            line-height: 35px
+            color: #444e67
+            transition: 0.3s
+            &::before
+              content: '>'
+              padding-right: 10px 
+            &:hover
+              color: #48cfad
