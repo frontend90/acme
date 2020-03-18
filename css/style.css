@@ -9673,4 +9673,272 @@ code {
 .blog-video-content .blog-video-wrap .blog-sidebar .archive .content a:hover {
   color: #48cfad;
 }
+
+.top-contact {
+  padding: 30px 0;
+  background: #34495e;
+}
+
+.top-contact .top-contact-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top-contact .top-contact-wrap .logo h3 {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.top-contact .top-contact-wrap .top-contact-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.top-contact .top-contact-wrap .top-contact-nav a {
+  color: #48cfad;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.top-contact .top-contact-wrap .top-contact-nav a:first-of-type {
+  margin-left: 0;
+}
+
+.top-contact .top-contact-wrap .top-contact-nav p {
+  color: #ffffff;
+  margin-left: 5px;
+}
+
+.contact-content {
+  padding-top: 50px;
+}
+
+.contact-content .row {
+  margin-bottom: 50px;
+}
+
+.contact-content .row .contact-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact-content .row .contact-header .block1 {
+  width: 40%;
+}
+
+.contact-content .row .contact-header .block1 .address {
+  border: 1px solid #eeeeee;
+  padding: 10px;
+}
+
+.contact-content .row .contact-header .block1 .address h5 {
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.contact-content .row .contact-header .block1 .address .content {
+  margin: 20px 0;
+}
+
+.contact-content .row .contact-header .block1 .hours {
+  border: 1px solid #eeeeee;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.contact-content .row .contact-header .block1 .hours h5 {
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.contact-content .row .contact-header .block1 .hours .content {
+  margin: 20px 0;
+}
+
+.contact-content .row .contact-header .block1 .telephone {
+  border: 1px solid #eeeeee;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.contact-content .row .contact-header .block1 .telephone h5 {
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.contact-content .row .contact-header .block1 .telephone .content {
+  margin: 20px 0;
+}
+
+.contact-content .row .contact-header .block1 .telephone .content a {
+  display: block;
+  color: #797979;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.contact-content .row .contact-header .block1 .telephone .content a:hover {
+  color: #48cfad;
+}
+
+.contact-content .row .contact-header .block2 {
+  width: 57%;
+}
+
+.contact-content .row .contact-header .block2 h5 {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.contact-content .row .contact-header .block2 .form {
+  margin-top: 20px;
+}
+
+.contact-content .row .contact-header .block2 .form form p {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.contact-content .row .contact-header .block2 .form form p:first-of-type {
+  margin-top: 0;
+}
+
+.contact-content .row .contact-header .block2 .form form input {
+  border: 1px solid #d9d9d9;
+  margin-top: 5px;
+  border-radius: 2px;
+  color: #c2c2c2;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+}
+
+.contact-content .row .contact-header .block2 .form form textarea {
+  margin-top: 5px;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  color: #c2c2c2;
+  width: 100%;
+  height: 115px;
+  padding: 6px 12px;
+}
+
+.contact-content .row .contact-header .block2 .form form .btn {
+  margin-top: 15px;
+}
+
+.contact-content .row .contact-map {
+  width: 100%;
+  height: 400px;
+}
+
+.contact-content .row .contact-map iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.contact-content .row .contact-blog h5 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.contact-content .row .contact-blog .contact-blog-slider {
+  margin: 40px auto 0;
+  width: 66%;
+}
+
+.contact-content .row .contact-blog .contact-blog-slider .slick-list {
+  overflow: hidden;
+}
+
+.contact-content .row .contact-blog .contact-blog-slider .slick-list .slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact-content .row .contact-blog .contact-blog-slider .slick-list .slick-track .contact-blog-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact-content .row .contact-blog .contact-blog-slider .slick-list .slick-track .contact-blog-block .img img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.contact-content .row .contact-blog .contact-blog-slider .slick-list .slick-track .contact-blog-block .desc {
+  margin-left: 30px;
+}
+
+.contact-content .row .contact-blog .contact-blog-slider .slick-list .slick-track .contact-blog-block .desc p {
+  font-size: 17px;
+}
+
+.contact-content .row .contact-blog .contact-blog-slider .slick-list .slick-track .contact-blog-block .desc p .fas {
+  font-family: 'fa-solid-900';
+  padding-right: 10px;
+}
+
+.contact-content .row .contact-blog .contact-blog-slider .slick-list .slick-track .contact-blog-block .desc small {
+  margin-top: 10px;
+  color: #999999;
+  font-size: 85%;
+}
+
+.contact-content .row .contact-blog .contact-blog-slider .slick-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+.contact-content .row .contact-blog .contact-blog-slider .slick-dots li {
+  font-size: 0;
+}
+
+.contact-content .row .contact-blog .contact-blog-slider .slick-dots li button {
+  width: 10px;
+  height: 10px;
+  background: #c0c0c0;
+  border-radius: 50%;
+  margin-left: 5px;
+  border: 1px solid #ffffff;
+}
+
+.contact-content .row .contact-blog .contact-blog-slider .slick-dots .slick-active button {
+  width: 12px;
+  height: 12px;
+  background: #333333;
+}
 /*# sourceMappingURL=style.css.map */
